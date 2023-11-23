@@ -1,21 +1,57 @@
 header {
   background-color: #f6e7d5;
+  align-items: center;
+}
+
+nav a {
+  color: black;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  background-color: #f6e7d5;
+}
+
+h5 {
+  background-color: #f6e7d5;
 }
 
 .products {
-  background-color: #e5efdb;
+  background-color: #f6e7d5;
 }
 
+.card {
+  background-color: #f6e7d5;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+
 .contact {
-  background-color: #e0eaf5;
+  background-color: #f6e7d5;
+}
+
+.products__cards {
+  display: grid;
+  gap: 20px
 }
 
 footer {
-  background-color: #fdf2d1;
+  background-color: #f6e7d5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 .card img {
-  width: 300px;
+  width: 500px;
 }
 
 footer img {
